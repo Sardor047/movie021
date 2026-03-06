@@ -20,7 +20,7 @@ function render(movieArray) {
     <h1>${film.title}</h1>
     <h3>${film.id}</h3>
     <p>${release_date}</p>
-    <a href="detail.html?id=${film.id}" class="detail-btn">details</a>
+    <a href="detail.html?id=${film.id}" class="button-24">details</a>
     `;
     ul.appendChild(li);
   });
